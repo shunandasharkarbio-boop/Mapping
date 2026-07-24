@@ -1,4 +1,21 @@
-JBrowse
- JBrowse ( Galaxy version 1.16.11+galaxy0) is an alternative, web-based genome browser. Whereas IGV is a piece of software you must download and run, JBrowse instances are websites hosted online that provide an interface to browse genomics data. We’ll use it to visualise the mapped reads.
+## 🌐 Visualizing Alignments with JBrowse
 
- Here We Zoom on the chr2:98,666,236-98,667,473
+**JBrowse** is a web-based genome browser available in **Galaxy** for interactive visualization of genomic data. Unlike **IGV**, which requires a desktop application, **JBrowse** runs directly in your web browser, making it easy to explore sequencing alignments and genomic annotations.
+
+### 🛠️ Steps
+
+1. Open the mapped **BAM** file using **JBrowse** in Galaxy.
+2. Load the appropriate reference genome (e.g., **Mouse mm10**).
+3. Navigate to the genomic region:
+
+```text
+chr2:98,666,236–98,667,473
+```
+
+4. Zoom in to examine read alignments, coverage, and mapping quality across the selected region.
+
+### 🎓 Learning Outcome
+
+- Visualize mapped reads using JBrowse
+- Explore genomic regions interactively in a web browser
+- Inspect alignment quality and read coverage
